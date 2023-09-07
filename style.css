@@ -50,6 +50,12 @@ body {
     gap: 40px;
 }
 
+.content {
+    flex: 1;
+    padding: 50px;
+    padding-right: 0px;
+}
+
 .content h1 {
     font-size: 48px;
     color: #F9FAF8;
@@ -61,15 +67,24 @@ body {
 .content p {
     font-size: 18px;
     color: #E5E7EB;
-    margin: 0;
+    margin: 10px 0;
     padding: 0;
 }
 
 button {
     background-color: #3882F6;
     color: #E5E7EB;
+    padding: 5px 30px;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.hero .imgdiv {
+    flex: 1;
+    padding: 50px;
+    padding-left: 0px;
 }
 
 .hero img {
-    height: 250px;
+    max-width: 100%;
 }

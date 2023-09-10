@@ -1,5 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .header {
@@ -87,4 +90,109 @@ button {
 
 .hero img {
     max-width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 800;
+    padding: 0;
+    color: #1F2937;
+}
+
+.boxes {
+    display: flex;
+    padding: 100px;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+}
+
+.box img {
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 150px;
+}
+
+.quote h3 {
+    font-size: 36px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote p {
+    padding: 0;
+    margin: 0;
+    align-self: flex-end;
+    font-weight: bold;
+}
+
+.signup {
+    display: flex;
+    margin: 100px;
+    padding: 50px;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-radius: 8px;
+    gap: 15px;
+    flex: 1;
+    align-self: center;
+}
+
+.signupHead {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.signupText {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.signup button {
+    border: 2px solid #F9FAF8;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    padding: 25px;
+}
+
+button a:link {
+    text-decoration: none;
+    color: #E5E7EB
+}
+
+button a:visited {
+    text-decoration: none;
+    color: #E5E7EB
 }
